@@ -13,8 +13,9 @@ if hist_button:
     st.plotly_chart(fig, use_container_width=True)
 
 show_scatter = st.checkbox('Mostrar gráfico de dispersión')
-if scatter_button:
+if show_scatter:  # Cambié scatter_button por show_scatter
     st.write('Creación de un gráfico de dispersión para el precio vs millaje')
     fig = px.scatter(car_data, x="odometer", y="price", title="Relación entre millaje y precio")
     st.plotly_chart(fig, use_container_width=True)
+
 
