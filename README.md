@@ -1,0 +1,1 @@
+"Esta aplicación web permite explorar datos de anuncios de coches usados a través de visualizaciones interactivas, como histogramas y gráficos de dispersión."
